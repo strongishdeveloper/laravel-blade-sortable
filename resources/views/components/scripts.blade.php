@@ -36,7 +36,7 @@
                         const from = evt?.from?.dataset?.name
                         const to = evt?.to?.dataset?.name
 
-                        @this[this.wireOnSortOrderChange](
+                        this.$wire[this.wireOnSortOrderChange](
                             this.sortOrder,
                             previousSortOrder,
                             this.name,
